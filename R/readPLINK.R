@@ -4,10 +4,10 @@ readPLINK = function(prefix){
   INDS = fread(paste(prefix, ".fam", sep = "")) %>%
     as_tibble() %>%
     rename(fam = V1, id = V2, pat = V3, mat = V4, sex = V5, pheno = V6)
-  fam$pat[fam$pat == 0] = NA
-  fam$mat[fam$mat == 0] = NA
-  fam$sex[fam$sex == 0] = NA
-  fam$pheno[fam$pheno == -9] = NA
+  INDS$pat[INDS$pat == 0] = NA
+  INDS$mat[INDS$mat == 0] = NA
+  INDS$sex[INDS$sex == 0] = NA
+  INDS$pheno[INDS$pheno == -9] = NA
 
   # SNPS
   SNPS = fread(paste(prefix, ".bim", sep = "")) %>%
