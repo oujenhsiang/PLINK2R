@@ -1,0 +1,17 @@
+Package: PLINK2R
+Type: Package
+Title: PLINK2R
+Version: 1.0.0
+Author: Mark Ou
+Maintainer: Mark Ou <oumark.me@outlook.com>
+Description: An easy package for read Plink binary file to R
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6)
+Imports:
+    data.table,
+    tibble,
+    genio
+
