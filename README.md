@@ -10,8 +10,8 @@
 This package is not published on CRAN, and you will need to install it from GitHub.
 
 ```R
-library(devtools)
-install_github("oujenhsiang/PLINK2R")
+#install.packages("devtools")
+devtools::install_github("oujenhsiang/PLINK2R")
 ```
 
 ## Usage
