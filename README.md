@@ -11,7 +11,7 @@ This package is not published on CRAN, and you will need to install it from GitH
 
 ```R
 #install.packages("devtools")
-devtools::install_github("oujenhsiang/PLINK2R")
+devtools::install_github("oujenhsiang/PLINK2R", force = TRUE)
 ```
 
 ## Usage
