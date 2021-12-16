@@ -17,6 +17,7 @@ devtools::install_github("oujenhsiang/PLINK2R")
 ## Usage
 
 ```R
+library(PLINK2R)
 readPLINK(prefix)
 ```
 
