@@ -1,7 +1,7 @@
 Package: PLINK2R
 Type: Package
 Title: PLINK2R
-Version: 1.0.1
+Version: 1.0.2
 Author: Mark Ou
 Maintainer: Mark Ou <oumark.me@outlook.com>
 Description: An easy package for read Plink binary file to R

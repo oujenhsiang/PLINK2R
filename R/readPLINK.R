@@ -1,5 +1,4 @@
 readPLINK = function(prefix){
-
   # INDS
   INDS = fread(paste(prefix, ".fam", sep = "")) %>%
     as_tibble() %>%
