@@ -13,5 +13,6 @@ Depends:
 Imports:
     data.table,
     tibble,
+    dplyr,
     genio
 

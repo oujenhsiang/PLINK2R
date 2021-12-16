@@ -2,11 +2,11 @@
 \alias{readPLINK}
 \title{Read Plink binary file to R}
 \usage{
-readPLINK()
+readPLINK(prefix)
 }
 \description{
-Prints 'Hello, world!'.
+Simply read Plink file to R by giving path and prefix to all binary files.
 }
 \examples{
-readPLINK()
+#readPLINK(prefix)
 }
