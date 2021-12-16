@@ -18,5 +18,5 @@ readPLINK = function(prefix){
   GENO = t(read_bed(prefix, names_loci = SNPS$id, names_ind = INDS$id))
 
   # return results
-  return(list(GENO, SNPS, INDS))
+  return(list(GENO = GENO, SNPS = SNPS, INDS = INDS))
 }
