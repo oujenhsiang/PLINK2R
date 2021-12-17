@@ -1,7 +1,3 @@
----
-title: PLINK2R
----
-
 [PLINK2R](https://github.com/oujenhsiang/PLINK2R) is an easy-to-use R package that can read [PLINK](https://www.cog-genomics.org/plink/1.9) binary format data to R. Four packages are used (you don't need to install them manually):
 
 - `data.table`
