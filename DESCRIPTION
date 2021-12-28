@@ -1,10 +1,10 @@
-Package: PLINK2R
+Package: markGENE
 Type: Package
-Title: PLINK2R
-Version: 1.0.2
+Title: markGENE
+Version: 1.1.0
 Author: Mark Ou
 Maintainer: Mark Ou <oumark.me@outlook.com>
-Description: An easy package for read Plink binary file to R
+Description: A personal R package including usefule functions for bioinformatics
 License: MIT
 Encoding: UTF-8
 LazyData: true
@@ -14,5 +14,6 @@ Imports:
     data.table,
     tibble,
     dplyr,
-    genio
+    genio,
+    qqman
 
